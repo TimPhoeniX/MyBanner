@@ -1,4 +1,4 @@
-char* char_A[7]={
+static char* char_A[7]={
 "   #   ",
 "  # #  ",
 " #   # ",
@@ -6,7 +6,7 @@ char* char_A[7]={
 "#######",
 "#     #",
 "#     #"};
-char* char_B[7]={
+static char* char_B[7]={
 "###### ",
 "#     #",
 "#     #",
@@ -14,7 +14,7 @@ char* char_B[7]={
 "#     #",
 "#     #",
 "###### "};
-char* char_C[7]={
+static char* char_C[7]={
 " ##### ",
 "#     #",
 "#      ",
@@ -22,7 +22,7 @@ char* char_C[7]={
 "#      ",
 "#     #",
 " ##### "};
-char* char_D[7]={
+static char* char_D[7]={
 "###### ",
 "#     #",
 "#     #",
@@ -30,7 +30,7 @@ char* char_D[7]={
 "#     #",
 "#     #",
 "###### "};
-char* char_E[7]={
+static char* char_E[7]={
 "#######",
 "#      ",
 "#      ",
@@ -38,7 +38,7 @@ char* char_E[7]={
 "#      ",
 "#      ",
 "#######"};
-char* char_F[7]={
+static char* char_F[7]={
 "#######",
 "#      ",
 "#      ",
@@ -46,7 +46,7 @@ char* char_F[7]={
 "#      ",
 "#      ",
 "#      "};
-char* char_G[7]={
+static char* char_G[7]={
 " ##### ",
 "#     #",
 "#      ",
@@ -54,7 +54,7 @@ char* char_G[7]={
 "#     #",
 "#     #",
 " ##### "};
-char* char_H[7]={
+static char* char_H[7]={
 "#     #",
 "#     #",
 "#     #",
@@ -62,7 +62,7 @@ char* char_H[7]={
 "#     #",
 "#     #",
 "#     #"};
-char* char_I[7]={
+static char* char_I[7]={
 "###",
 " # ",
 " # ",
@@ -70,7 +70,7 @@ char* char_I[7]={
 " # ",
 " # ",
 "###"};
-char* char_J[7]={
+static char* char_J[7]={
 "      #",
 "      #",
 "      #",
@@ -78,7 +78,7 @@ char* char_J[7]={
 "#     #",
 "#     #",
 " ##### "};
-char* char_K[7]={
+static char* char_K[7]={
 "#    #",
 "#   # ",
 "#  #  ",
@@ -86,7 +86,7 @@ char* char_K[7]={
 "#  #  ",
 "#   # ",
 "#    #"};
-char* char_L[7]={
+static char* char_L[7]={
 "#      ",
 "#      ",
 "#      ",
@@ -94,7 +94,7 @@ char* char_L[7]={
 "#      ",
 "#      ",
 "#######"};
-char* char_M[7]={
+static char* char_M[7]={
 "#     #",
 "##   ##",
 "# # # #",
@@ -102,7 +102,7 @@ char* char_M[7]={
 "#     #",
 "#     #",
 "#     #"};
-char* char_N[7]={
+static char* char_N[7]={
 "#     #",
 "##    #",
 "# #   #",
@@ -110,7 +110,7 @@ char* char_N[7]={
 "#   # #",
 "#    ##",
 "#     #"};
-char* char_O[7]={
+static char* char_O[7]={
 "#######",
 "#     #",
 "#     #",
@@ -118,7 +118,7 @@ char* char_O[7]={
 "#     #",
 "#     #",
 "#######"};
-char* char_P[7]={
+static char* char_P[7]={
 "###### ",
 "#     #",
 "#     #",
@@ -126,7 +126,7 @@ char* char_P[7]={
 "#      ",
 "#      ",
 "#      "};
-char* char_Q[7]={
+static char* char_Q[7]={
 " ##### ",
 "#     #",
 "#     #",
@@ -134,7 +134,7 @@ char* char_Q[7]={
 "#   # #",
 "#    # ",
 " #### #"};
-char* char_R[7]={
+static char* char_R[7]={
 "###### ",
 "#     #",
 "#     #",
@@ -142,7 +142,7 @@ char* char_R[7]={
 "#   #  ",
 "#    # ",
 "#     #"};
-char* char_S[7]={
+static char* char_S[7]={
 " ##### ",
 "#     #",
 "#      ",
@@ -150,7 +150,7 @@ char* char_S[7]={
 "      #",
 "#     #",
 " ##### "};
-char* char_T[7]={
+static char* char_T[7]={
 "#######",
 "   #   ",
 "   #   ",
@@ -158,7 +158,7 @@ char* char_T[7]={
 "   #   ",
 "   #   ",
 "   #   "};
-char* char_U[7]={
+static char* char_U[7]={
 "#     #",
 "#     #",
 "#     #",
@@ -166,7 +166,7 @@ char* char_U[7]={
 "#     #",
 "#     #",
 " ##### "};
-char* char_V[7]={
+static char* char_V[7]={
 "#     #",
 "#     #",
 "#     #",
@@ -174,7 +174,7 @@ char* char_V[7]={
 " #   # ",
 "  # #  ",
 "   #   "};
-char* char_W[7]={
+static char* char_W[7]={
 "#     #",
 "#  #  #",
 "#  #  #",
@@ -182,7 +182,7 @@ char* char_W[7]={
 "#  #  #",
 "#  #  #",
 " ## ## "};
-char* char_X[7]={
+static char* char_X[7]={
 "#     #",
 " #   # ",
 "  # #  ",
@@ -190,7 +190,7 @@ char* char_X[7]={
 "  # #  ",
 " #   # ",
 "#     #"};
-char* char_Y[7]={
+static char* char_Y[7]={
 "#     #",
 " #   # ",
 "  # #  ",
@@ -198,7 +198,7 @@ char* char_Y[7]={
 "   #   ",
 "   #   ",
 "   #   "};
-char* char_Z[7]={
+static char* char_Z[7]={
 "#######",
 "     # ",
 "    #  ",
@@ -206,7 +206,7 @@ char* char_Z[7]={
 "  #    ",
 " #     ",
 "#######"};
-char* char_a[7]={
+static char* char_a[7]={
 "      ",
 "  ##  ",
 " #  # ",
@@ -214,7 +214,7 @@ char* char_a[7]={
 "######",
 "#    #",
 "#    #"};
-char* char_b[7]={
+static char* char_b[7]={
 "      ",
 "##### ",
 "#    #",
@@ -222,7 +222,7 @@ char* char_b[7]={
 "#    #",
 "#    #",
 "##### "};
-char* char_c[7]={
+static char* char_c[7]={
 "      ",
 " #### ",
 "#    #",
@@ -230,7 +230,7 @@ char* char_c[7]={
 "#     ",
 "#    #",
 " #### "};
-char* char_d[7]={
+static char* char_d[7]={
 "      ",
 "##### ",
 "#    #",
@@ -238,7 +238,7 @@ char* char_d[7]={
 "#    #",
 "#    #",
 "##### "};
-char* char_e[7]={
+static char* char_e[7]={
 "      ",
 "######",
 "#     ",
@@ -246,7 +246,7 @@ char* char_e[7]={
 "#     ",
 "#     ",
 "######"};
-char* char_f[7]={
+static char* char_f[7]={
 "      ",
 "######",
 "#     ",
@@ -254,7 +254,7 @@ char* char_f[7]={
 "#     ",
 "#     ",
 "#     "};
-char* char_g[7]={
+static char* char_g[7]={
 "      ",
 " #### ",
 "#    #",
@@ -262,7 +262,7 @@ char* char_g[7]={
 "#  ###",
 "#    #",
 " #### "};
-char* char_h[7]={
+static char* char_h[7]={
 "      ",
 "#    #",
 "#    #",
@@ -270,7 +270,7 @@ char* char_h[7]={
 "#    #",
 "#    #",
 "#    #"};
-char* char_i[7]={
+static char* char_i[7]={
 " ",
 "#",
 "#",
@@ -278,7 +278,7 @@ char* char_i[7]={
 "#",
 "#",
 "#"};
-char* char_j[7]={
+static char* char_j[7]={
 "      ",
 "     #",
 "     #",
@@ -286,7 +286,7 @@ char* char_j[7]={
 "     #",
 "#    #",
 " #### "};
-char* char_k[7]={
+static char* char_k[7]={
 "      ",
 "#    #",
 "#   # ",
@@ -294,7 +294,7 @@ char* char_k[7]={
 "#  #  ",
 "#   # ",
 "#    #"};
-char* char_l[7]={
+static char* char_l[7]={
 "      ",
 "#     ",
 "#     ",
@@ -302,7 +302,7 @@ char* char_l[7]={
 "#     ",
 "#     ",
 "######"};
-char* char_m[7]={
+static char* char_m[7]={
 "      ",
 "#    #",
 "##  ##",
@@ -310,7 +310,7 @@ char* char_m[7]={
 "#    #",
 "#    #",
 "#    #"};
-char* char_n[7]={
+static char* char_n[7]={
 "      ",
 "#    #",
 "##   #",
@@ -318,7 +318,7 @@ char* char_n[7]={
 "#  # #",
 "#   ##",
 "#    #"};
-char* char_o[7]={
+static char* char_o[7]={
 "      ",
 " #### ",
 "#    #",
@@ -326,7 +326,7 @@ char* char_o[7]={
 "#    #",
 "#    #",
 " #### "};
-char* char_p[7]={
+static char* char_p[7]={
 "      ",
 "##### ",
 "#    #",
@@ -334,7 +334,7 @@ char* char_p[7]={
 "##### ",
 "#     ",
 "#     "};
-char* char_q[7]={
+static char* char_q[7]={
 "      ",
 " #### ",
 "#    #",
@@ -342,7 +342,7 @@ char* char_q[7]={
 "#  # #",
 "#   # ",
 " ### #"};
-char* char_r[7]={
+static char* char_r[7]={
 "      ",
 "##### ",
 "#    #",
@@ -350,7 +350,7 @@ char* char_r[7]={
 "##### ",
 "#   # ",
 "#    #"};
-char* char_s[7]={
+static char* char_s[7]={
 "      ",
 " #### ",
 "#     ",
@@ -358,7 +358,7 @@ char* char_s[7]={
 "     #",
 "#    #",
 " #### "};
-char* char_t[7]={
+static char* char_t[7]={
 "     ",
 "#####",
 "  #  ",
@@ -366,7 +366,7 @@ char* char_t[7]={
 "  #  ",
 "  #  ",
 "  #  "};
-char* char_u[7]={
+static char* char_u[7]={
 "      ",
 "#    #",
 "#    #",
@@ -374,7 +374,7 @@ char* char_u[7]={
 "#    #",
 "#    #",
 " #### "};
-char* char_v[7]={
+static char* char_v[7]={
 "      ",
 "#    #",
 "#    #",
@@ -382,7 +382,7 @@ char* char_v[7]={
 "#    #",
 " #  # ",
 "  ##  "};
-char* char_w[7]={
+static char* char_w[7]={
 "      ",
 "#    #",
 "#    #",
@@ -390,7 +390,7 @@ char* char_w[7]={
 "# ## #",
 "##  ##",
 "#    #"};
-char* char_x[7]={
+static char* char_x[7]={
 "      ",
 "#    #",
 " #  # ",
@@ -398,7 +398,7 @@ char* char_x[7]={
 "  ##  ",
 " #  # ",
 "#    #"};
-char* char_y[7]={
+static char* char_y[7]={
 "     ",
 "#   #",
 " # # ",
@@ -406,7 +406,7 @@ char* char_y[7]={
 "  #  ",
 "  #  ",
 "  #  "};
-char* char_z[7]={
+static char* char_z[7]={
 "      ",
 "######",
 "    # ",
@@ -414,7 +414,7 @@ char* char_z[7]={
 "  #   ",
 " #    ",
 "######"};
-char* char_1[7]={
+static char* char_1[7]={
 "  #  ",
 " ##  ",
 "# #  ",
@@ -422,7 +422,7 @@ char* char_1[7]={
 "  #  ",
 "  #  ",
 "#####"};
-char* char_2[7]={
+static char* char_2[7]={
 " ##### ",
 "#     #",
 "      #",
@@ -430,7 +430,7 @@ char* char_2[7]={
 "#      ",
 "#      ",
 "#######"};
-char* char_3[7]={
+static char* char_3[7]={
 " ##### ",
 "#     #",
 "      #",
@@ -438,7 +438,7 @@ char* char_3[7]={
 "      #",
 "#     #",
 " ##### "};
-char* char_4[7]={
+static char* char_4[7]={
 "#      ",
 "#    # ",
 "#    # ",
@@ -446,7 +446,7 @@ char* char_4[7]={
 "#######",
 "     # ",
 "     # "};
-char* char_5[7]={
+static char* char_5[7]={
 "#######",
 "#      ",
 "#      ",
@@ -454,7 +454,7 @@ char* char_5[7]={
 "      #",
 "#     #",
 " ##### "};
-char* char_6[7]={
+static char* char_6[7]={
 " ##### ",
 "#     #",
 "#      ",
@@ -462,7 +462,7 @@ char* char_6[7]={
 "#     #",
 "#     #",
 " ##### "};
-char* char_7[7]={
+static char* char_7[7]={
 "#######",
 "#    # ",
 "    #  ",
@@ -470,7 +470,7 @@ char* char_7[7]={
 "  #    ",
 "  #    ",
 "  #    "};
-char* char_8[7]={
+static char* char_8[7]={
 " ##### ",
 "#     #",
 "#     #",
@@ -478,7 +478,7 @@ char* char_8[7]={
 "#     #",
 "#     #",
 " ##### "};
-char* char_9[7]={
+static char* char_9[7]={
 " ##### ",
 "#     #",
 "#     #",
@@ -486,7 +486,7 @@ char* char_9[7]={
 "      #",
 "#     #",
 " ##### "};
-char* char_0[7]={
+static char* char_0[7]={
 "   ###  ",
 " #   # ",
 "#     #",
@@ -494,7 +494,7 @@ char* char_0[7]={
 "#     #",
 " #   # ",
 "  ###  "};
-char* char_bang[7]={
+static char* char_bang[7]={
 "###",
 "###",
 "###",
@@ -502,7 +502,7 @@ char* char_bang[7]={
 "   ",
 "###",
 "###"};
-char* _default_[7]={
+static char* _default_[7]={
 "",
 "",
 "",
@@ -511,7 +511,7 @@ char* _default_[7]={
 "",
 ""};
 /* Template
-char* char_[7]={
+static char* char_[7]={
 ""};*/
 char **get_letter(char letter)
 {
@@ -568,8 +568,8 @@ char **get_letter(char letter)
 		case 'v': charptr=char_v; break;
 		case 'w': charptr=char_w; break;
 		case 'x': charptr=char_x; break;
-		case 'y': charptr=char_x; break;
-		case 'z': charptr=char_y; break;
+		case 'y': charptr=char_y; break;
+		case 'z': charptr=char_z; break;
 		case '1': charptr=char_1; break;
 		case '2': charptr=char_2; break;
 		case '3': charptr=char_3; break;
